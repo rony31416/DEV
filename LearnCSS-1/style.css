@@ -1,0 +1,47 @@
+h1{
+    color : rgb(97, 197, 97);
+    font-size: 50px;
+}
+.rony{
+    color:rgb(239, 6, 52);
+}
+
+#pera-style{
+    color : rgb(228, 163, 163);
+}
+.new{
+    background-color: rgb(90, 90, 227);
+}
+.new .rony{
+    background: #e5cf0d;
+}
+
+.my-style{
+    text-align:  center;
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+}
+.my-style2{
+    font-size: 50px;
+    font-style:italic;
+    font-weight: bold;
+    color: #C47FAF;
+}
+
+.decoration h1{
+    text-align: center;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-shadow: 5px 3px 2px;
+
+}
+.decoration p{
+    text-indent: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    word-spacing: 15px;
+
+}
