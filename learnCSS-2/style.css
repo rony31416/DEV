@@ -1,0 +1,121 @@
+#name{
+    text-align: center;
+}
+.love{
+    color: red;
+    font-size: 3rem;
+}
+.telephone{
+    font-size: 5rem;
+    color: rgb(87, 87, 223);
+}
+p{
+    font-size: 40px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(242, 239, 239);
+}
+
+#section1{
+    padding: 40px;
+    margin: 1px 0px ;
+    background-color: greenyellow;
+    width: 180px;
+}
+
+#section2{
+    padding: 20px 40px;
+    margin-top: 2px;
+    margin-left: 20px;
+    background-color: rgb(174, 85, 13);
+    width: 180px;
+}
+
+
+#one{
+    border: 5px green solid;
+    border: 5px green dotted;
+    border: 5px green  ;
+    border-style: double;
+
+    width: 240px;
+}
+
+#two{
+    margin-left: 10px;
+    border-left: 5px red solid;
+    border-right: 5px black solid;
+    border-top: 5px blue solid;
+    border-bottom: 5px pink solid;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+#three{
+    background-color: orange;
+    display: inline;
+    border: 5px green dotted;
+    border-radius: 20px;
+
+}
+
+.psudo a{
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+.psudo a:hover{
+    color: green;
+}
+
+input{
+   padding: 20px;
+  font-size:30px;
+}
+
+input.nam:hover{
+    background-color:green;
+
+}
+input.email:focus{
+    background-color: green;
+}
+
+
+table,tr,td{
+    font-size: 30px;
+    border: 1px black solid;
+}
+tr:nth-child(odd){
+    background-color: rgb(223, 223, 17);
+}
+
+p.psudo-element::first-letter{
+    color: red;
+    font-size: 5rem;
+}
+
+p.psudo-element::after{
+    content: " -_- hi";
+}
+
+.demo p:hover{
+    background: #000;
+    color:white;
+}
+
+.demo p::selection{
+    color: green;
+    background-color: yellow;
+}
+
+.demo{
+    background-image: url("back.jpg");
+    background-repeat:repeat ;
+    background-position: center;
+    background-attachment:fixed;
+
+}
