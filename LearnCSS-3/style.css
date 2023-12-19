@@ -1,0 +1,64 @@
+.gradient{
+    height: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-image: linear-gradient(to right,red,green,yellow,blue);
+}
+
+
+.gradient2{
+    height: 50px;
+    
+    width: 100%;
+    background-image: radial-gradient(circle,rgb(234, 227, 227),rgb(19, 240, 19),rgb(72, 72, 58),blue);
+
+}
+body{
+    padding-bottom: 120px;
+}
+
+.section1{
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: yellow;
+    margin: 10px;
+}
+.section2{
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: green;
+}
+.section3{
+    margin-top: 20px;
+    clear: both;
+    background-color: pink;
+}
+
+.nevbar{
+    height: 100px;
+    background: #67de57;
+    border-radius: 10px;
+
+}
+.nevbar ul{
+    float: right;
+}
+.nevbar ul li{
+    list-style : none;
+    margin: 20px;
+    float: left;
+    
+
+}
+.nevbar ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+}
+
+.nevbar ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
