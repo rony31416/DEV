@@ -1,0 +1,22 @@
+.div1{
+    background-color: brown;
+    height: 500px;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border:5px solid green;
+}
+
+.div2{
+    background-color: green;
+    height:430px;
+    width: 50%;
+}
+img{
+    height: 200px;
+    width: 250px;
+    opacity: 0.3;
+}
+img:hover{
+    opacity: 1;
+}
